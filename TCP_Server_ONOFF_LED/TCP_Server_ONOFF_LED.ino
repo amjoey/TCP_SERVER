@@ -2,8 +2,8 @@
 #include <EEPROM.h>
 
 #define SERVER_PORT 21111    //กำหนด Port ใช้งาน
-const char* ssid = "wifi2013";       //กำหนด SSID
-const char* password = "the0815993598"; //กำหนด Password
+const char* ssid = "***********";       //กำหนด SSID
+const char* password = "****************"; //กำหนด Password
 WiFiServer server(SERVER_PORT); //สร้าง object server และกำหนด port
 
 int pin = 2;
